@@ -1,19 +1,33 @@
- body{
+   body{
+  
+   display: block;
    font-size:larger;
-   color:white;
+   color:rgb(7, 0, 0);
    text-transform: uppercase;
    font-weight: bolder;
    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: brown;
- }
- .menu{
-   position: relative;
+    /* background-color: rgb(5, 0, 0); */
+    background-repeat: no-repeat;
+   
+ }  
+  body{
+ 
+
+  height:1080px;
+  width:720px;
+  background-size: cover;
+ 
+  background-image:url('god-lord-krishna-wallpaper-preview.jpg');
+}
+   .menu{
+  
+   position:relative;
    top:84px;
    left:168px;
  }
 .menu ul li 
 {list-style: none;
-   float: left;
+    float: left; 
    margin-left: 20px;
    padding: 10px;
 }
@@ -31,8 +45,8 @@
  
  .dropdown-content {
    display:none;
-   position: absolute;
-   background-color: #d33535;
+   position:fixed;
+   background-color: #292323;
    min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    padding: 12px 16px;
@@ -46,5 +60,5 @@
  
  .menu ul li:hover .dropdown-content,.dropdown:hover .dropdown-content {
    display: block;
- }
+ }  
 
